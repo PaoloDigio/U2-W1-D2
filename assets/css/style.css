@@ -132,8 +132,11 @@ h1 {
 
 #underline-svg {
     position: absolute;
-    top: 105px;
+    left: 0;
+    right: 0;
+    width: 100%;
     opacity: 0.6;
+    bottom: -10px;
 }
 
 p,
@@ -182,18 +185,6 @@ h1 + p {
 @media screen and (min-width: 676px) {
     h1 {
         font-size: 3.6rem;
-    }
-
-    #underline-svg {
-        top: 130px;
-    }
-}
-
-@media screen and (min-width: 1080px) {
-    #underline-svg {
-        top: 60px;
-        right: 15%;
-        width: 50%;
     }
 }
 
